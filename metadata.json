@@ -1,0 +1,6 @@
+{
+  "name": "Class 8 Mathematics Keybook - Complete Step-by-Step Solutions",
+  "description": "Comprehensive, verified digital keybook for Grade 8 Mathematics (Balochistan Textbook Board) with LaTeX-rendered step-by-step solutions, interactive formula tools, search, and revision bookmarks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
