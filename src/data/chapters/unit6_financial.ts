@@ -81,6 +81,63 @@ export const unit6Financial: Chapter = {
           officialAnswer: "33%"
         },
         {
+          id: "ex-6-1-q4",
+          chapterId: 6,
+          chapterNumber: 6,
+          chapterTitle: "Percentage and Financial Arithmetic",
+          exerciseId: "6.1",
+          exerciseTitle: "Exercise 6.1",
+          questionNumber: "Question 4",
+          topic: "Loss Percentage - Jewelry Set",
+          statement: "Iqra bought a jewelry set for $\\text{Rs. } 375,000$ and sold it for $\\text{Rs. } 365,000$ after some time. Find his loss percentage.",
+          given: "$\\text{C.P} = \\text{Rs. } 375,000, \\quad \\text{S.P} = \\text{Rs. } 365,000$",
+          formula: "$$\\text{Loss} = \\text{C.P} - \\text{S.P}, \\quad \\text{Loss \\%} = \\frac{\\text{Loss}}{\\text{C.P}} \\times 100\\%$$",
+          workingSteps: [
+            "$$\\text{Loss} = 375000 - 365000 = \\text{Rs. } 10,000$$",
+            "$$\\text{Loss \\%} = \\frac{10000}{375000} \\times 100\\% = \\frac{10}{375} \\times 100\\% \\approx 2.67\\%$$"
+          ],
+          finalAnswer: "Loss Percentage = 2.67%",
+          officialAnswer: "2.67%"
+        },
+        {
+          id: "ex-6-1-q5",
+          chapterId: 6,
+          chapterNumber: 6,
+          chapterTitle: "Percentage and Financial Arithmetic",
+          exerciseId: "6.1",
+          exerciseTitle: "Exercise 6.1",
+          questionNumber: "Question 5",
+          topic: "Loss Percentage - Pen",
+          statement: "A student buys a pen for $\\text{Rs. } 190$ and sells it for $\\text{Rs. } 150$. Find his loss percent.",
+          given: "$\\text{C.P} = \\text{Rs. } 190, \\quad \\text{S.P} = \\text{Rs. } 150$",
+          formula: "$$\\text{Loss} = \\text{C.P} - \\text{S.P}, \\quad \\text{Loss \\%} = \\frac{\\text{Loss}}{\\text{C.P}} \\times 100\\%$$",
+          workingSteps: [
+            "$$\\text{Loss} = 190 - 150 = \\text{Rs. } 40$$",
+            "$$\\text{Loss \\%} = \\frac{40}{190} \\times 100\\% = \\frac{400}{19}\\% \\approx 21.05\\%$$"
+          ],
+          finalAnswer: "Loss Percentage = 21.05%",
+          officialAnswer: "21.05%"
+        },
+        {
+          id: "ex-6-1-q6",
+          chapterId: 6,
+          chapterNumber: 6,
+          chapterTitle: "Percentage and Financial Arithmetic",
+          exerciseId: "6.1",
+          exerciseTitle: "Exercise 6.1",
+          questionNumber: "Question 6",
+          topic: "Selling Price with Loss - Solar Iron",
+          statement: "A retailer sells a solar iron at a cost price of $\\text{Rs. } 1500$ with a loss of $10\\%$. Calculate the price at which the customer will purchase it. Also, find loss earned by the retailer.",
+          given: "Cost Price $\\text{C.P} = \\text{Rs. } 1500$\nLoss percentage $= 10\\%$",
+          formula: "$$\\text{Loss} = \\text{C.P} \\times 10\\%, \\quad \\text{S.P} = \\text{C.P} - \\text{Loss}$$",
+          workingSteps: [
+            "$$\\text{Loss} = 1500 \\times \\frac{10}{100} = \\text{Rs. } 150$$",
+            "$$\\text{Selling Price (purchase price)} = 1500 - 150 = \\text{Rs. } 1350$$"
+          ],
+          finalAnswer: "Purchase Price = Rs. 1350, Loss = Rs. 150",
+          officialAnswer: "Purchase Price: Rs. 1350, Loss: Rs. 150"
+        },
+        {
           id: "ex-6-1-q7",
           chapterId: 6,
           chapterNumber: 6,
@@ -96,21 +153,40 @@ export const unit6Financial: Chapter = {
               label: "(i)",
               statement: "Discount Price = Rs. 1222, Discount = 6%",
               working: [
-                "$$\\text{M.P} = \\frac{1222}{1 - 0.06} = \\frac{1222}{0.94} = \\text{Rs. } 1295.32$$"
+                "$$\\text{M.P} = \\frac{1222}{1 - 0.06} = \\frac{1222}{0.94} = \\text{Rs. } 1300$$"
               ],
-              finalAnswer: "Rs. 1,295.32"
+              finalAnswer: "Rs. 1,300"
             },
             {
               label: "(ii)",
               statement: "Discount Price = Rs. 495, Discount = 1%",
               working: [
-                "$$\\text{M.P} = \\frac{495}{1 - 0.01} = \\frac{495}{0.99} = \\text{Rs. } 499.95$$"
+                "$$\\text{M.P} = \\frac{495}{1 - 0.01} = \\frac{495}{0.99} = \\text{Rs. } 500$$"
               ],
-              finalAnswer: "Rs. 499.95"
+              finalAnswer: "Rs. 500"
             }
           ],
-          finalAnswer: "(i) Rs. 1,295.32, (ii) Rs. 499.95",
-          officialAnswer: "(i) Rs. 1295.32, (ii) Rs. 499.95"
+          finalAnswer: "(i) Rs. 1,300, (ii) Rs. 500",
+          officialAnswer: "(i) Rs. 1300, (ii) Rs. 500"
+        },
+        {
+          id: "ex-6-1-q8",
+          chapterId: 6,
+          chapterNumber: 6,
+          chapterTitle: "Percentage and Financial Arithmetic",
+          exerciseId: "6.1",
+          exerciseTitle: "Exercise 6.1",
+          questionNumber: "Question 8",
+          topic: "Cash Discount - Sewing Machine",
+          statement: "A shop sells sewing machines offers $3\\%$ discount on all cash purchases. What cash amount does a customer pay for a sewing machine the market price of which is $\\text{Rs. } 650$?",
+          given: "Market Price $\\text{M.P} = \\text{Rs. } 650$\nDiscount Rate $= 3\\%$",
+          formula: "$$\\text{Discount} = \\text{M.P} \\times 3\\%, \\quad \\text{Cash Paid} = \\text{M.P} - \\text{Discount}$$",
+          workingSteps: [
+            "$$\\text{Discount} = 650 \\times \\frac{3}{100} = \\text{Rs. } 19.50$$",
+            "$$\\text{Amount paid} = 650 - 19.50 = \\text{Rs. } 630.50$$"
+          ],
+          finalAnswer: "Customer pays = Rs. 630.50",
+          officialAnswer: "Rs. 630.50"
         },
         {
           id: "ex-6-1-q9",
@@ -130,6 +206,24 @@ export const unit6Financial: Chapter = {
           ],
           finalAnswer: "Discount Percentage = 5%",
           officialAnswer: "5%"
+        },
+        {
+          id: "ex-6-1-q10",
+          chapterId: 6,
+          chapterNumber: 6,
+          chapterTitle: "Percentage and Financial Arithmetic",
+          exerciseId: "6.1",
+          exerciseTitle: "Exercise 6.1",
+          questionNumber: "Question 10",
+          topic: "Discount Amount - Printer",
+          statement: "The cost price of printer is $\\text{Rs. } 25,000$. Discount on the printer is $15\\%$. Find the discount given to the customer.",
+          given: "Price $= \\text{Rs. } 25,000$\nDiscount Rate $= 15\\%$",
+          formula: "$$\\text{Discount} = 25000 \\times 15\\%$$",
+          workingSteps: [
+            "$$\\text{Discount} = 25000 \\times \\frac{15}{100} = 250 \\times 15 = \\text{Rs. } 3,750$$"
+          ],
+          finalAnswer: "Discount = Rs. 3,750",
+          officialAnswer: "Rs. 3750"
         }
       ]
     },
@@ -140,6 +234,25 @@ export const unit6Financial: Chapter = {
       page: 82,
       description: "Markup, interest rates, insurance premiums, partnership distribution, and Islamic inheritance division.",
       questions: [
+        {
+          id: "ex-6-2-q1",
+          chapterId: 6,
+          chapterNumber: 6,
+          chapterTitle: "Percentage and Financial Arithmetic",
+          exerciseId: "6.2",
+          exerciseTitle: "Exercise 6.2",
+          questionNumber: "Question 1",
+          topic: "Markup and Total Amount - Borrowing",
+          statement: "Find the total amount and amount of markup that Ahsan has to pay to the financial department. If he borrowed $\\text{Rs. } 200,000$ at the rate of $15\\%$ for three years.",
+          given: "Principal $P = \\text{Rs. } 200,000$\nRate $R = 15\\%$\nTime $T = 3\\text{ years}$",
+          formula: "$$M = P \\times R \\times T, \\quad \\text{Total} = P + M$$",
+          workingSteps: [
+            "$$\\text{Markup } M = 200,000 \\times \\frac{15}{100} \\times 3 = 2000 \\times 45 = \\text{Rs. } 90,000$$",
+            "$$\\text{Total Amount} = 200,000 + 90,000 = \\text{Rs. } 290,000$$"
+          ],
+          finalAnswer: "Markup = Rs. 90,000, Total Amount = Rs. 290,000",
+          officialAnswer: "Markup: Rs. 90,000, Total: Rs. 290,000"
+        },
         {
           id: "ex-6-2-q2",
           chapterId: 6,
@@ -158,6 +271,25 @@ export const unit6Financial: Chapter = {
           ],
           finalAnswer: "Markup Rate = 5%",
           officialAnswer: "5%"
+        },
+        {
+          id: "ex-6-2-q3",
+          chapterId: 6,
+          chapterNumber: 6,
+          chapterTitle: "Percentage and Financial Arithmetic",
+          exerciseId: "6.2",
+          exerciseTitle: "Exercise 6.2",
+          questionNumber: "Question 3",
+          topic: "Vehicle Insurance - Car Worth",
+          statement: "Usman paid $\\text{Rs. } 54,606$ as a premium for his car at the rate of $2.7\\%$. Find the worth of his car where policy fee is $\\text{Rs. } 900$.",
+          given: "Total Premium $= \\text{Rs. } 54,606$\nPolicy fee $= \\text{Rs. } 900$\nInsurance rate $= 2.7\\%$",
+          formula: "$$\\text{Net Premium} = \\text{Total Premium} - \\text{Policy Fee} = \\text{Worth} \\times 2.7\\%$$",
+          workingSteps: [
+            "$$\\text{Net Premium} = 54,606 - 900 = \\text{Rs. } 53,706$$",
+            "$$\\text{Worth of car} = \\frac{53706}{2.7\\%} = \\frac{53706 \\times 100}{2.7} = \\text{Rs. } 1,989,111.11$$"
+          ],
+          finalAnswer: "Worth of car = Rs. 1,989,111",
+          officialAnswer: "Rs. 1989111"
         },
         {
           id: "ex-6-2-q4",
@@ -187,14 +319,13 @@ export const unit6Financial: Chapter = {
           exerciseId: "6.2",
           exerciseTitle: "Exercise 6.2",
           questionNumber: "Question 5",
-          topic: "Partnership Profit - Ali and Salman",
+          topic: "Business Partnership Profit Division",
           statement: "Ali and Salman are two business partners and their partnership share is of $3 : 5$. If the business earns $\\text{Rs. } 900,000$, then find the share of each.",
-          given: "Total Profit $= \\text{Rs. } 900,000$\nRatio $= 3 : 5$\nSum of ratio $= 3 + 5 = 8$",
-          formula: "$$\\text{Partner's share} = \\frac{\\text{Ratio}}{8} \\times 900,000$$",
+          given: "Total Profit $= \\text{Rs. } 900,000$\nRatio $= 3 : 5$",
+          formula: "$$\\text{Sum of Ratios} = 3 + 5 = 8$$",
           workingSteps: [
-            "$$\\text{Ali's Share} = \\frac{3}{8} \\times 900,000 = 3 \\times 112,500 = \\text{Rs. } 337,500$$",
-            "$$\\text{Salman's Share} = \\frac{5}{8} \\times 900,000 = 5 \\times 112,500 = \\text{Rs. } 562,500$$",
-            "Check: $337500 + 562500 = 900000$."
+            "$$\\text{Ali's share} = \\frac{3}{8} \\times 900,000 = 3 \\times 112,500 = \\text{Rs. } 337,500$$",
+            "$$\\text{Salman's share} = \\frac{5}{8} \\times 900,000 = 5 \\times 112,500 = \\text{Rs. } 562,500$$"
           ],
           finalAnswer: "Ali's Share = Rs. 337,500 | Salman's Share = Rs. 562,500",
           officialAnswer: "Rs. 337500, Rs. 562500"
@@ -207,21 +338,19 @@ export const unit6Financial: Chapter = {
           exerciseId: "6.2",
           exerciseTitle: "Exercise 6.2",
           questionNumber: "Question 6",
-          topic: "Islamic Inheritance - Wife, Daughters, Sons",
+          topic: "Islamic Inheritance - Wife, 6 Daughters, 2 Sons",
           statement: "Imran left an inheritance of $\\text{Rs. } 600,000$. Inheritance will be distributed among his wife, six daughters and two sons. Find the share of each.",
-          given: "Total Inheritance $= \\text{Rs. } 600,000$\nHeirs: $1\\text{ wife}, 6\\text{ daughters}, 2\\text{ sons}$",
-          formula: "In the presence of children, wife gets $\\frac{1}{8}$. Remaining distributed with ratio $2$ for each son and $1$ for each daughter.",
+          given: "Total Inheritance $= \\text{Rs. } 600,000$\nHeirs: 1 Wife, 6 Daughters, 2 Sons",
+          formula: "$$\\text{Wife's share} = \\frac{1}{8}, \\quad \\text{Son : Daughter} = 2 : 1$$",
           workingSteps: [
-            "$$\\text{Wife's Share} = \\frac{1}{8} \\times 600,000 = \\text{Rs. } 75,000$$",
-            "$$\\text{Remaining Amount} = 600,000 - 75,000 = \\text{Rs. } 525,000$$",
-            "Ratios for children: $2\\text{ sons} \\times 2 = 4\\text{ parts}$; $6\\text{ daughters} \\times 1 = 6\\text{ parts}$.",
-            "Total parts $= 4 + 6 = 10\\text{ parts}$.",
-            "Value per part $= \\frac{525000}{10} = \\text{Rs. } 52,500$.",
-            "$$\\text{All 6 Daughters' Share} = 6 \\times 52,500 = \\text{Rs. } 315,000 \\quad (\\text{Each daughter} = \\text{Rs. } 52,500)$$",
-            "$$\\text{All 2 Sons' Share} = 4 \\times 52,500 = \\text{Rs. } 210,000 \\quad (\\text{Each son} = \\text{Rs. } 105,000)$$"
+            "$$\\text{Wife's share} = \\frac{1}{8} \\times 600,000 = \\text{Rs. } 75,000$$",
+            "$$\\text{Remaining amount} = 600,000 - 75,000 = \\text{Rs. } 525,000$$",
+            "Ratios: 2 sons $\\times 2 = 4$ shares; 6 daughters $\\times 1 = 6$ shares. Total units $= 4 + 6 = 10$.",
+            "$$\\text{Value of 1 share (each daughter)} = \\frac{525,000}{10} = \\text{Rs. } 52,500$$",
+            "$$\\text{Each son's share} = 2 \\times 52,500 = \\text{Rs. } 105,000$$"
           ],
-          finalAnswer: "Wife = Rs. 75,000 | 6 Daughters = Rs. 315,000 (Rs. 52,500 each) | 2 Sons = Rs. 210,000 (Rs. 105,000 each)",
-          officialAnswer: "Rs. 75000 = wife's share, Rs. 315000 = Daughter's share, Rs. 210000 = Son's share"
+          finalAnswer: "Wife = Rs. 75,000 | Each Son = Rs. 105,000 | Each Daughter = Rs. 52,500",
+          officialAnswer: "Wife: Rs. 75000, Son: Rs. 105000, Daughter: Rs. 52500"
         },
         {
           id: "ex-6-2-q7",
@@ -231,15 +360,17 @@ export const unit6Financial: Chapter = {
           exerciseId: "6.2",
           exerciseTitle: "Exercise 6.2",
           questionNumber: "Question 7",
-          topic: "Islamic Inheritance - Debt, Funeral, Daughters",
-          statement: "A woman left property of $\\text{Rs. } 1,600,000$. A debt of $\\text{Rs. } 73,000$ was due upon her and $\\text{Rs. } 20,000$ was spent on burial. Divide the remaining amount between her husband and two daughters according to the Islamic principles of inheritance.",
-          given: "Total Estate $= \\text{Rs. } 1,600,000$\nDebt $= \\text{Rs. } 73,000$\nBurial $= \\text{Rs. } 20,000$\nHeirs: Husband, 2 daughters",
-          formula: "Net Estate = Total - (Debt + Burial). Husband gets 1/4 (in presence of children), two or more daughters get 2/3.",
+          topic: "Inheritance with Debt & Burial Expenses",
+          statement: "A woman left her property of $\\text{Rs. } 1,600,000$. A debt of $\\text{Rs. } 73,000$ was due upon her and $\\text{Rs. } 20,000$ was spent on burial. Divide the remaining amount between her husband and two daughters according to Islamic principles of inheritance.",
+          given: "Total Estate $= \\text{Rs. } 1,600,000$\nDebt $= \\text{Rs. } 73,000$\nBurial expenses $= \\text{Rs. } 20,000$\nHeirs: Husband, 2 Daughters",
+          formula: "$$\\text{Net Estate} = 1600000 - (73000 + 20000) = 1,507,000$$",
           workingSteps: [
-            "$$\\text{Net Estate} = 1600000 - (73000 + 20000) = 1600000 - 93000 = \\text{Rs. } 1,507,000$$",
-            "In case where 2 daughters share equals: $$\\text{Each daughter} = \\frac{1507000}{2} = \\text{Rs. } 753,500$$"
+            "$$\\text{Husband's share (with children)} = \\frac{1}{4} \\times 1,507,000 = \\text{Rs. } 376,750$$",
+            "$$\\text{Remaining amount for daughters} = 1,507,000 - 376,750 = \\text{Rs. } 1,130,250$$",
+            "$$\\text{Each daughter's share} = \\frac{1,130,250}{2} = \\text{Rs. } 565,125$$",
+            "Note: Textbook page 226 gives: Rs. 753,500 for husband/daughters based on 1/2 distribution."
           ],
-          finalAnswer: "Each daughter's share = Rs. 753,500",
+          finalAnswer: "Husband = Rs. 376,750 (or Rs. 753,500 per textbook key), Daughters = Rs. 565,125 each (or Rs. 753,500 total)",
           officialAnswer: "Rs. 753500, Rs. 753500"
         },
         {
@@ -250,12 +381,12 @@ export const unit6Financial: Chapter = {
           exerciseId: "6.2",
           exerciseTitle: "Exercise 6.2",
           questionNumber: "Question 8",
-          topic: "Insurance Premium - Shop",
-          statement: "The worth of Saleem shop is $\\text{Rs. } 8,400,000$. He gets the insurance policy at rate of $6\\%$. Find how much premium he will pay annually to the insurance company?",
-          given: "Worth of shop $= \\text{Rs. } 8,400,000$\nRate of premium $= 6\\%$",
+          topic: "Shop Insurance Premium",
+          statement: "The worth of Saleem's shop is $\\text{Rs. } 8,400,000$. He gets the insurance policy at rate of $6\\%$. Find how much premium he will pay annually to the insurance company?",
+          given: "Worth of shop $= \\text{Rs. } 8,400,000$\nRate of annual premium $= 6\\%$",
           formula: "$$\\text{Annual Premium} = \\text{Worth} \\times \\text{Rate}$$",
           workingSteps: [
-            "$$\\text{Premium} = 8400000 \\times \\frac{6}{100} = 84000 \\times 6 = \\text{Rs. } 504,000$$"
+            "$$\\text{Annual Premium} = 8,400,000 \\times \\frac{6}{100} = 84,000 \\times 6 = \\text{Rs. } 504,000$$"
           ],
           finalAnswer: "Annual Premium = Rs. 504,000",
           officialAnswer: "Rs. 504000"
@@ -268,13 +399,13 @@ export const unit6Financial: Chapter = {
           exerciseId: "6.2",
           exerciseTitle: "Exercise 6.2",
           questionNumber: "Question 9",
-          topic: "Partnership - Khadija and Mahnoor",
+          topic: "Investment Profit Share",
           statement: "Khadija and Mahnoor invest $\\text{Rs. } 40,000$ and $\\text{Rs. } 50,000$ in a business. After some time they got profit $\\text{Rs. } 45,000$. Find the share of each.",
-          given: "Investment Khadija $= 40,000$, Mahnoor $= 50,000$\nRatio $= 40000 : 50000 = 4 : 5$\nSum of ratio $= 4 + 5 = 9$\nTotal profit $= \\text{Rs. } 45,000$",
-          formula: "$$\\text{Share} = \\frac{\\text{Ratio}}{9} \\times 45,000$$",
+          given: "Investments: Khadija $= 40,000$, Mahnoor $= 50,000$\nTotal Profit $= \\text{Rs. } 45,000$",
+          formula: "$$\\text{Ratio of investment} = 40000 : 50000 = 4 : 5, \\quad \\text{Sum} = 9$$",
           workingSteps: [
-            "$$\\text{Khadija's Share} = \\frac{4}{9} \\times 45,000 = 4 \\times 5,000 = \\text{Rs. } 20,000$$",
-            "$$\\text{Mahnoor's Share} = \\frac{5}{9} \\times 45,000 = 5 \\times 5,000 = \\text{Rs. } 25,000$$"
+            "$$\\text{Khadija's profit share} = \\frac{4}{9} \\times 45,000 = 4 \\times 5000 = \\text{Rs. } 20,000$$",
+            "$$\\text{Mahnoor's profit share} = \\frac{5}{9} \\times 45,000 = 5 \\times 5000 = \\text{Rs. } 25,000$$"
           ],
           finalAnswer: "Khadija = Rs. 20,000 | Mahnoor = Rs. 25,000",
           officialAnswer: "Rs. 20000, Rs. 25000"
@@ -287,15 +418,15 @@ export const unit6Financial: Chapter = {
           exerciseId: "6.2",
           exerciseTitle: "Exercise 6.2",
           questionNumber: "Question 10",
-          topic: "Islamic Inheritance - Son and Daughter",
+          topic: "Inheritance - 1 Son and 1 Daughter",
           statement: "Shahwali died and left $\\text{Rs. } 300,000$ inheritance. He has a son and a daughter. Find the share of each.",
-          given: "Total Estate $= \\text{Rs. } 300,000$\nHeirs: $1\\text{ son}, 1\\text{ daughter}$",
-          formula: "Ratio of Son : Daughter $= 2 : 1$. Sum of ratios $= 2 + 1 = 3$.",
+          given: "Total Estate $= \\text{Rs. } 300,000$\nHeirs: 1 Son, 1 Daughter",
+          formula: "$$\\text{Ratio Son : Daughter} = 2 : 1, \\quad \\text{Sum of ratios} = 3$$",
           workingSteps: [
-            "$$\\text{Son's Share} = \\frac{2}{3} \\times 300,000 = \\text{Rs. } 200,000$$",
-            "$$\\text{Daughter's Share} = \\frac{1}{3} \\times 300,000 = \\text{Rs. } 100,000$$"
+            "$$\\text{Son's share} = \\frac{2}{3} \\times 300,000 = \\text{Rs. } 200,000$$",
+            "$$\\text{Daughter's share} = \\frac{1}{3} \\times 300,000 = \\text{Rs. } 100,000$$"
           ],
-          finalAnswer: "Son's share = Rs. 200,000 | Daughter's share = Rs. 100,000",
+          finalAnswer: "Son's Share = Rs. 200,000 | Daughter's Share = Rs. 100,000",
           officialAnswer: "Rs. 200000, Rs. 100000"
         }
       ]

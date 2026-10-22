@@ -60,27 +60,27 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden">
+    <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden min-w-0">
       {/* Top Header Card */}
-      <div className="border-b border-slate-100 dark:border-slate-800 p-5 sm:p-6 bg-slate-50/50 dark:bg-slate-900/50 flex flex-wrap items-center justify-between gap-4">
-        <div>
-          <div className="flex items-center gap-2 text-xs font-semibold text-blue-600 dark:text-blue-400 mb-1">
-            <BookOpen className="w-4 h-4" />
+      <div className="border-b border-slate-100 dark:border-slate-800 p-4 sm:p-6 bg-slate-50/50 dark:bg-slate-900/50 flex flex-wrap items-center justify-between gap-3 sm:gap-4 min-w-0">
+        <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 text-xs font-semibold text-blue-600 dark:text-blue-400 mb-1">
+            <BookOpen className="w-4 h-4 shrink-0" />
             <span>Unit {question.chapterNumber}: {question.chapterTitle}</span>
             <span aria-hidden="true">·</span>
             <span>{question.exerciseTitle}</span>
           </div>
-          <h1 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-slate-100 flex items-center gap-3">
-            <span>{question.questionNumber}</span>
-            <span className="text-sm font-medium text-slate-500 dark:text-slate-400">({question.topic})</span>
+          <h1 className="text-lg sm:text-2xl font-extrabold text-slate-900 dark:text-slate-100 flex flex-wrap items-baseline gap-1.5 sm:gap-3">
+            <span className="shrink-0">{question.questionNumber}</span>
+            <span className="text-xs sm:text-sm font-medium text-slate-500 dark:text-slate-400 break-words">({question.topic})</span>
           </h1>
         </div>
 
         {/* Action Controls */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 shrink-0">
           <button
             onClick={() => onToggleBookmark(question.id)}
-            className={`p-2.5 rounded-xl border text-xs font-medium flex items-center gap-1.5 transition-colors cursor-pointer ${
+            className={`p-2 sm:p-2.5 rounded-xl border text-xs font-medium flex items-center gap-1.5 transition-colors cursor-pointer ${
               isBookmarked
                 ? 'bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-300 border-amber-300 dark:border-amber-800'
                 : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-slate-50'
@@ -93,7 +93,7 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
 
           <button
             onClick={handleCopySolution}
-            className="p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-50 text-xs font-medium flex items-center gap-1.5 transition-colors cursor-pointer"
+            className="p-2 sm:p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-50 text-xs font-medium flex items-center gap-1.5 transition-colors cursor-pointer"
             title="Copy Solution to Clipboard"
           >
             {copied ? <Check className="w-4 h-4 text-emerald-600" /> : <Copy className="w-4 h-4" />}
@@ -102,7 +102,7 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
         </div>
       </div>
 
-      <div className="p-5 sm:p-7 space-y-6">
+      <div className="p-4 sm:p-7 space-y-5 sm:space-y-6 min-w-0">
         {/* Question Statement Box */}
         <div className="p-4 sm:p-5 rounded-xl bg-blue-50/40 dark:bg-blue-950/20 border border-blue-100 dark:border-blue-900/50">
           <div className="text-xs font-bold uppercase tracking-wider text-blue-700 dark:text-blue-300 mb-2 flex items-center gap-1.5">
@@ -211,29 +211,33 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
       </div>
 
       {/* Footer Navigation Buttons */}
-      <div className="border-t border-slate-100 dark:border-slate-800 p-4 bg-slate-50/50 dark:bg-slate-900/50 flex items-center justify-between">
+      <div className="border-t border-slate-100 dark:border-slate-800 p-3 sm:p-4 bg-slate-50/50 dark:bg-slate-900/50 flex items-center justify-between gap-2 min-w-0">
         <button
           onClick={onPrevQuestion}
           disabled={!hasPrev}
-          className={`px-4 py-2 text-xs font-semibold rounded-lg flex items-center gap-1.5 transition-colors ${
+          className={`px-3 sm:px-4 py-2 text-xs font-semibold rounded-lg flex items-center gap-1.5 transition-colors shrink-0 ${
             hasPrev
               ? 'bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 cursor-pointer'
               : 'opacity-40 cursor-not-allowed text-slate-400'
           }`}
         >
-          <ChevronLeft className="w-4 h-4" /> Previous Question
+          <ChevronLeft className="w-4 h-4 shrink-0" />
+          <span>Previous</span>
+          <span className="hidden sm:inline">Question</span>
         </button>
 
         <button
           onClick={onNextQuestion}
           disabled={!hasNext}
-          className={`px-4 py-2 text-xs font-semibold rounded-lg flex items-center gap-1.5 transition-colors ${
+          className={`px-3 sm:px-4 py-2 text-xs font-semibold rounded-lg flex items-center gap-1.5 transition-colors shrink-0 ${
             hasNext
               ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-sm cursor-pointer'
               : 'opacity-40 cursor-not-allowed bg-slate-300 text-slate-500'
           }`}
         >
-          Next Question <ChevronRight className="w-4 h-4" />
+          <span>Next</span>
+          <span className="hidden sm:inline">Question</span>
+          <ChevronRight className="w-4 h-4 shrink-0" />
         </button>
       </div>
     </div>

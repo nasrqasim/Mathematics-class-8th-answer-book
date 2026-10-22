@@ -1,0 +1,4 @@
+Mathematics 8.pdf
+*.pdf
+*.png
+!public/**

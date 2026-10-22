@@ -1,0 +1,31 @@
+{
+  "short_name": "Math 8 Keybook",
+  "name": "Class 8 Mathematics Keybook",
+  "description": "Complete Step-by-Step Solutions for Class 8 Mathematics (Balochistan Textbook Board)",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/app-icon.png",
+      "type": "image/png",
+      "sizes": "1254x1254",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a8a",
+  "display": "standalone",
+  "orientation": "any",
+  "scope": "/"
+}

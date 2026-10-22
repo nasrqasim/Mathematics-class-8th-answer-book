@@ -1,13 +1,33 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @layer base {
   :root {
     --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
     --font-mono: 'JetBrains Mono', ui-monospace, monospace;
   }
 
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   body {
     font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: 320px;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
   }
 }
 
@@ -17,10 +37,12 @@
   overflow-y: hidden;
   padding: 0.5rem 0;
   max-width: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 
 .katex {
-  font-size: 1.08em;
+  font-size: 1.05em;
+  max-width: 100%;
 }
 
 /* Custom scrollbars for math code and drawer */

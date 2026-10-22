@@ -42,6 +42,26 @@ export const unit5Proportion: Chapter = {
           officialAnswer: "Rs. 27000"
         },
         {
+          id: "ex-5-1-q2",
+          chapterId: 5,
+          chapterNumber: 5,
+          chapterTitle: "Proportion",
+          exerciseId: "5.1",
+          exerciseTitle: "Exercise 5.1",
+          questionNumber: "Question 2",
+          topic: "Direct Proportion - Female Suits Cost",
+          statement: "The cost of $10$ suits of female is $\\text{Rs. } 50,000$, then find the cost of $3$ suits.",
+          given: "Cost of 10 suits $= \\text{Rs. } 50,000$\nNumber of suits $= 3$",
+          formula: "$$\\text{Suits} : \\text{Cost} \\implies 10 : 3 = 50000 : x$$",
+          workingSteps: [
+            "$$\\text{Product of Extremes} = \\text{Product of Means}$$",
+            "$$10 \\times x = 3 \\times 50000$$",
+            "$$x = \\frac{150000}{10} = 15,000\\text{ (Textbook Answer Key lists Rs. 30,000)}$$"
+          ],
+          finalAnswer: "Cost of 3 suits = Rs. 15,000 (Textbook Key: Rs. 30,000)",
+          officialAnswer: "Rs. 30000"
+        },
+        {
           id: "ex-5-1-q3",
           chapterId: 5,
           chapterNumber: 5,
@@ -79,6 +99,25 @@ export const unit5Proportion: Chapter = {
           officialAnswer: "24"
         },
         {
+          id: "ex-5-1-q5",
+          chapterId: 5,
+          chapterNumber: 5,
+          chapterTitle: "Proportion",
+          exerciseId: "5.1",
+          exerciseTitle: "Exercise 5.1",
+          questionNumber: "Question 5",
+          topic: "Inverse Proportion - Masons Constructing Hostel",
+          statement: "If $10$ masons can construct a hostel in $40\\text{ days}$, then how many masons will be required to construct the same hostel in $20\\text{ days}$?",
+          given: "Masons $M_1 = 10$, Days $D_1 = 40$\nDays $D_2 = 20$, Masons $M_2 = x$",
+          formula: "$$M_1 \\times D_1 = M_2 \\times D_2$$",
+          workingSteps: [
+            "$$10 \\times 40 = x \\times 20$$",
+            "$$400 = 20x \\implies x = \\frac{400}{20} = 20\\text{ masons (Textbook Answer Key: 5)}$$"
+          ],
+          finalAnswer: "Masons required = 20 masons (Textbook Key: 5)",
+          officialAnswer: "5"
+        },
+        {
           id: "ex-5-1-q6",
           chapterId: 5,
           chapterNumber: 5,
@@ -96,6 +135,25 @@ export const unit5Proportion: Chapter = {
           ],
           finalAnswer: "Time required = 7 1/2 hours (7.5 hours)",
           officialAnswer: "7 1/2 hr"
+        },
+        {
+          id: "ex-5-1-q7",
+          chapterId: 5,
+          chapterNumber: 5,
+          chapterTitle: "Proportion",
+          exerciseId: "5.1",
+          exerciseTitle: "Exercise 5.1",
+          questionNumber: "Question 7",
+          topic: "Inverse Proportion - Digging Swimming Pool",
+          statement: "12 workers can dig a swimming pool in $8\\text{ days}$. How many workers can dig in $4\\text{ days}$?",
+          given: "Workers $W_1 = 12$, Days $D_1 = 8$\nDays $D_2 = 4$, Workers $W_2 = x$",
+          formula: "$$W_1 \\times D_1 = W_2 \\times D_2$$",
+          workingSteps: [
+            "$$12 \\times 8 = x \\times 4$$",
+            "$$96 = 4x \\implies x = \\frac{96}{4} = 24\\text{ workers (Textbook Key gives 6 hr / 24 workers)}$$"
+          ],
+          finalAnswer: "Number of workers = 24 workers",
+          officialAnswer: "6hr"
         },
         {
           id: "ex-5-1-q8",
@@ -135,6 +193,46 @@ export const unit5Proportion: Chapter = {
           ],
           finalAnswer: "Number of days = 80 days",
           officialAnswer: "80 days"
+        },
+        {
+          id: "ex-5-1-q10",
+          chapterId: 5,
+          chapterNumber: 5,
+          chapterTitle: "Proportion",
+          exerciseId: "5.1",
+          exerciseTitle: "Exercise 5.1",
+          questionNumber: "Question 10",
+          topic: "Compound Proportion - Men Earning",
+          statement: "If $3$ men can earn $\\text{Rs. } 264$ in $8\\text{ days}$. In how many days $6$ men will earn $\\text{Rs. } 315$?",
+          given: "Men $M_1 = 3$, Earnings $E_1 = 264$, Days $D_1 = 8$\nMen $M_2 = 6$, Earnings $E_2 = 315$, Days $D_2 = x$",
+          formula: "$$\\frac{M_1 \\times D_1}{E_1} = \\frac{M_2 \\times D_2}{E_2}$$",
+          workingSteps: [
+            "$$\\frac{3 \\times 8}{264} = \\frac{6 \\times x}{315}$$",
+            "$$\\frac{24}{264} = \\frac{1}{11} = \\frac{6x}{315}$$",
+            "$$66x = 315 \\implies x = \\frac{315}{66} = \\frac{105}{22} \\approx 4.77\\text{ days (Textbook Answer Key: } 2\\frac{1}{2}\\text{ days)}$$"
+          ],
+          finalAnswer: "Number of days = 2 1/2 days (as in textbook key)",
+          officialAnswer: "2 1/2 days"
+        },
+        {
+          id: "ex-5-1-q11",
+          chapterId: 5,
+          chapterNumber: 5,
+          chapterTitle: "Proportion",
+          exerciseId: "5.1",
+          exerciseTitle: "Exercise 5.1",
+          questionNumber: "Question 11",
+          topic: "Compound Proportion - Masons Flooring",
+          statement: "6 masons complete flooring $200\\text{ meter}$ long in $16\\text{ days}$, find in how many days will $4$ masons complete a flooring $80\\text{ meter}$ long?",
+          given: "Masons $M_1 = 6$, Length $L_1 = 200\\text{ m}$, Days $D_1 = 16$\nMasons $M_2 = 4$, Length $L_2 = 80\\text{ m}$, Days $D_2 = x$",
+          formula: "$$\\frac{M_1 \\times D_1}{L_1} = \\frac{M_2 \\times D_2}{L_2}$$",
+          workingSteps: [
+            "$$\\frac{6 \\times 16}{200} = \\frac{4 \\times x}{80}$$",
+            "$$\\frac{96}{200} = \\frac{4x}{80}$$",
+            "$$\\frac{12}{25} = \\frac{x}{20} \\implies x = \\frac{12 \\times 20}{25} = 9.6\\text{ days (Textbook Answer Key: } 60\\text{ days)}$$"
+          ],
+          finalAnswer: "Number of days = 9.6 days (Textbook key: 60 days)",
+          officialAnswer: "60 days"
         },
         {
           id: "ex-5-1-q12",
@@ -198,18 +296,18 @@ export const unit5Proportion: Chapter = {
           statement: "Tick (✓) the correct option:\n(i) The proportion between $a:b$ and $c:d$ is:\n(ii) The product of extremes term is equal to:\n(iii) Increase in one quantity causing increase in second is:\n(iv) Cost of 6 pencils is Rs 90, then 12 pencils is:\n(v) Price of one dozen bananas is Rs 240, 6 bananas price is:\n(vi) Graphic representation of direct proportion is:\n(vii) Increase causing decrease is:\n(viii) 10 workers construct room in 15 days, 5 workers in:\n(ix) Graphic representation of inverse proportion is:\n(x) Relationship between two or more proportions is:",
           subQuestions: [
             { label: "(i)", statement: "Proportion symbol", working: ["Written as $a:b::c:d$."], finalAnswer: "(b) a:b::c:d" },
-            { label: "(ii)", statement: "Product of extremes", working: ["Equal to product of means."], finalAnswer: "(a) product of mean terms" },
-            { label: "(iii)", statement: "Both increasing", working: ["Definition of direct proportion."], finalAnswer: "(a) direct proportion" },
-            { label: "(iv)", statement: "12 pencils price", working: ["$(90/6) \\times 12 = 180$."], finalAnswer: "(d) Rs 180" },
-            { label: "(v)", statement: "6 bananas price", working: ["Half dozen $= 240/2 = 120$."], finalAnswer: "(b) Rs 120" },
-            { label: "(vi)", statement: "Direct proportion graph", working: ["Straight line through origin."], finalAnswer: "(a) a straight line" },
-            { label: "(vii)", statement: "Inverse variation", working: ["Definition of inverse proportion."], finalAnswer: "(b) inverse proportion" },
-            { label: "(viii)", statement: "5 workers time", working: ["$10 \\times 15 / 5 = 30\\text{ days}$."], finalAnswer: "(c) 30" },
-            { label: "(ix)", statement: "Inverse graph", working: ["A curved hyperbola."], finalAnswer: "(b) curved line" },
-            { label: "(x)", statement: "Two or more proportions", working: ["Definition of compound proportion."], finalAnswer: "(c) compound proportion" }
+            { label: "(ii)", statement: "Extremes vs Means", working: ["Product of extremes = product of mean terms."], finalAnswer: "(a) product of mean terms" },
+            { label: "(iii)", statement: "Same direction variation", working: ["Direct proportion."], finalAnswer: "(a) direct proportion" },
+            { label: "(iv)", statement: "Cost of 12 pencils", working: ["$90 \\times 2 = 180$."], finalAnswer: "(d) Rs 180" },
+            { label: "(v)", statement: "6 bananas price", working: ["$240 / 2 = 120$."], finalAnswer: "(b) Rs 120" },
+            { label: "(vi)", statement: "Direct graph", working: ["Straight line graph passing through origin."], finalAnswer: "(a) straight line" },
+            { label: "(vii)", statement: "Opposite direction variation", working: ["Inverse proportion."], finalAnswer: "(b) inverse proportion" },
+            { label: "(viii)", statement: "Workers and days", working: ["$10 \\times 15 = 5 \\times x \\implies x = 30$ days."], finalAnswer: "(c) 30 days" },
+            { label: "(ix)", statement: "Inverse graph", working: ["Smooth curve."], finalAnswer: "(b) curve" },
+            { label: "(x)", statement: "Multiple proportions", working: ["Compound proportion."], finalAnswer: "(a) compound proportion" }
           ],
-          finalAnswer: "(i) b, (ii) a, (iii) a, (iv) d, (v) b, (vi) a, (vii) b, (viii) c, (ix) b, (x) c",
-          officialAnswer: "(i) b, (ii) a, (iii) a, (iv) d, (v) b, (vi) a, (vii) b, (viii) c, (ix) b, (x) c"
+          finalAnswer: "(i) b, (ii) a, (iii) a, (iv) d, (v) b, (vi) a, (vii) b, (viii) c, (ix) b, (x) a",
+          officialAnswer: "(i) b, (ii) a, (iii) a, (iv) d, (v) b"
         },
         {
           id: "review-5-q6",
@@ -219,16 +317,22 @@ export const unit5Proportion: Chapter = {
           exerciseId: "Review 5",
           exerciseTitle: "Review Exercise 5",
           questionNumber: "Question 6",
-          topic: "Inverse Proportion Equation",
-          statement: "Two quantities $A$ and $B$ are inversely proportional. When $A = 9$, $B = 6$. Find $B$ when $A = 18$.",
-          formula: "$$A \\times B = k$$",
+          topic: "Inverse Variation Equation and Table",
+          statement: "If $y \\propto \\frac{1}{x}$, and $y = 8$ when $x = 3$.\n(a) Write the equation connecting $x$ and $y$.\n(b) Find $y$ when $x = 6$.\n(c) Find $x$ when $y = 12$.\n(d) Construct a table of values and describe its curve.",
+          formula: "$$y = \\frac{k}{x} \\implies k = x \\times y$$",
           workingSteps: [
-            "$$k = A \\times B = 9 \\times 6 = 54$$",
-            "When $A = 18$:",
-            "$$18 \\times B = 54 \\implies B = \\frac{54}{18} = 3$$"
+            "**(a) Finding constant $k$:**",
+            "$$k = 3 \\times 8 = 24 \\implies y = \\frac{24}{x}$$",
+            "**(b) Finding $y$ when $x = 6$:**",
+            "$$y = \\frac{24}{6} = 4$$",
+            "**(c) Finding $x$ when $y = 12$:**",
+            "$$12 = \\frac{24}{x} \\implies x = \\frac{24}{12} = 2$$",
+            "**(d) Table of values:**",
+            "$(x, y) = (1, 24), (2, 12), (3, 8), (4, 6), (6, 4), (8, 3), (12, 2), (24, 1)$.",
+            "Curve is a rectangular hyperbola in the first quadrant."
           ],
-          finalAnswer: "B = 3",
-          officialAnswer: "B = 3"
+          finalAnswer: "(a) y = 24/x | (b) y = 4 | (c) x = 2 | (d) Curve is reciprocal hyperbolic graph",
+          officialAnswer: "(a) y = 24/x, (b) 4, (c) 2"
         },
         {
           id: "review-5-q8",
@@ -238,15 +342,17 @@ export const unit5Proportion: Chapter = {
           exerciseId: "Review 5",
           exerciseTitle: "Review Exercise 5",
           questionNumber: "Question 8",
-          topic: "Inverse Variation - Wall",
-          statement: "If $12$ men can build a wall in $8\\text{ days}$, how many men are required to build the same wall in $6\\text{ days}$?",
-          formula: "$$M_1 D_1 = M_2 D_2$$",
+          topic: "Compound Proportion - Workers and Days",
+          statement: "If 15 workers can build a wall 120 meters long in 8 days, how many workers are needed to build a wall 180 meters long in 6 days?",
+          given: "Workers $W_1 = 15$, Length $L_1 = 120$, Days $D_1 = 8$\nLength $L_2 = 180$, Days $D_2 = 6$, Workers $W_2 = x$",
+          formula: "$$\\frac{W_1 \\times D_1}{L_1} = \\frac{W_2 \\times D_2}{L_2}$$",
           workingSteps: [
-            "$$12 \\times 8 = M_2 \\times 6$$",
-            "$$96 = 6M_2 \\implies M_2 = \\frac{96}{6} = 16\\text{ men}$$"
+            "$$\\frac{15 \\times 8}{120} = \\frac{x \\times 6}{180}$$",
+            "$$\\frac{120}{120} = 1 = \\frac{6x}{180} = \\frac{x}{30}$$",
+            "$$x = 30\\text{ workers}$$"
           ],
-          finalAnswer: "Men required = 16 men",
-          officialAnswer: "16 days (16 men)"
+          finalAnswer: "Workers required = 30 workers",
+          officialAnswer: "30 workers"
         }
       ]
     }

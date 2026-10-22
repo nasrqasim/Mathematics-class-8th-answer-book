@@ -98,6 +98,84 @@ export const unit2Approximation: Chapter = {
           officialAnswer: "(i) 3.48, (ii) 432.87, (iii) 0.53, (iv) 12.74"
         },
         {
+          id: "ex-2-1-q5",
+          chapterId: 2,
+          chapterNumber: 2,
+          chapterTitle: "Approximation and Estimation",
+          exerciseId: "2.1",
+          exerciseTitle: "Exercise 2.1",
+          questionNumber: "Question 5",
+          topic: "Significant Figures (4 S.F.)",
+          statement: "Round off the given numbers up to 4 significant figures:\n(i) $26.281$\n(ii) $736.289$\n(iii) $7.007168$\n(iv) $0.03428$",
+          subQuestions: [
+            {
+              label: "(i)",
+              statement: "$26.281$",
+              working: ["First 4 significant figures are 2, 6, 2, 8. Next digit is 1 ($< 5$), so round down."],
+              finalAnswer: "$26.28$"
+            },
+            {
+              label: "(ii)",
+              statement: "$736.289$",
+              working: ["First 4 significant figures are 7, 3, 6, 2. Next digit is 8 ($\\ge 5$), so round up $2 \\to 3$ gives $736.3$ (Textbook key records $736.29$)."],
+              finalAnswer: "$736.3$ (Key: $736.29$)"
+            },
+            {
+              label: "(iii)",
+              statement: "$7.007168$",
+              working: ["First 4 significant figures are 7, 0, 0, 7. Next digit is 1 ($< 5$), so round down."],
+              finalAnswer: "$7.007$"
+            },
+            {
+              label: "(iv)",
+              statement: "$0.03428$",
+              working: ["Leading zeros before non-zero digits are not significant. The 4 significant figures are 3, 4, 2, 8."],
+              finalAnswer: "$0.03428$"
+            }
+          ],
+          finalAnswer: "(i) 26.28, (ii) 736.3 (Key: 736.29), (iii) 7.007, (iv) 0.03428",
+          officialAnswer: "(i) 26.28 (ii) 736.29 (iii) 7.007 (iv) 0.03428"
+        },
+        {
+          id: "ex-2-1-q6",
+          chapterId: 2,
+          chapterNumber: 2,
+          chapterTitle: "Approximation and Estimation",
+          exerciseId: "2.1",
+          exerciseTitle: "Exercise 2.1",
+          questionNumber: "Question 6",
+          topic: "Significant Figures (5 S.F.)",
+          statement: "Round off the given numbers up to 5 significant figures:\n(i) $876.432$\n(ii) $0.103456$\n(iii) $89.0004$\n(iv) $15.2834$",
+          subQuestions: [
+            {
+              label: "(i)",
+              statement: "$876.432$",
+              working: ["First 5 significant figures are 8, 7, 6, 4, 3. Next digit is 2 ($< 5$), round down."],
+              finalAnswer: "$876.43$"
+            },
+            {
+              label: "(ii)",
+              statement: "$0.103456$",
+              working: ["Leading zero is not significant. First 5 significant figures are 1, 0, 3, 4, 5. Next digit is 6 ($\\ge 5$), so round up $5 \\to 6$."],
+              finalAnswer: "$0.10346$"
+            },
+            {
+              label: "(iii)",
+              statement: "$89.0004$",
+              working: ["First 5 significant figures are 8, 9, 0, 0, 0. Next digit is 4 ($< 5$), round down."],
+              finalAnswer: "$89.000$"
+            },
+            {
+              label: "(iv)",
+              statement: "$15.2834$",
+              working: ["First 5 significant figures are 1, 5, 2, 8, 3. Next digit is 4 ($< 5$), round down."],
+              finalAnswer: "$15.283$"
+            }
+          ],
+          finalAnswer: "(i) 876.43, (ii) 0.10346, (iii) 89.000, (iv) 15.283",
+          officialAnswer: "(i) 876.43 (ii) 0.10346 (iii) 89.000 (iv) 15.283"
+        },
+        {
           id: "ex-2-1-q7",
           chapterId: 2,
           chapterNumber: 2,

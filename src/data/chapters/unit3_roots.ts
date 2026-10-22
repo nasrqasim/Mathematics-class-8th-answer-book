@@ -138,6 +138,122 @@ export const unit3Roots: Chapter = {
           officialAnswer: "(i) 34, (ii) 65, (iii) 185, (iv) 627, (v) 380, (vi) 19"
         },
         {
+          id: "ex-3-1-q4",
+          chapterId: 3,
+          chapterNumber: 3,
+          chapterTitle: "Square and Cube Roots",
+          exerciseId: "3.1",
+          exerciseTitle: "Exercise 3.1",
+          questionNumber: "Question 4",
+          topic: "Square Root of Decimals by Factorization",
+          statement: "Find the square root of each of the following numbers by factorization method:\n(i) $0.0256$\n(ii) $1.7689$\n(iii) $0.1296$\n(iv) $32.0356$",
+          subQuestions: [
+            {
+              label: "(i)",
+              statement: "$\\sqrt{0.0256}$",
+              working: [
+                "Convert decimal to fraction: $0.0256 = \\frac{256}{10000}$",
+                "$\\sqrt{256} = 16$, $\\sqrt{10000} = 100$",
+                "$$\\sqrt{0.0256} = \\frac{16}{100} = 0.16$$"
+              ],
+              finalAnswer: "$0.16$"
+            },
+            {
+              label: "(ii)",
+              statement: "$\\sqrt{1.7689}$",
+              working: [
+                "Convert decimal to fraction: $1.7689 = \\frac{17689}{10000}$",
+                "Factorize numerator: $17689 = 133 \\times 133 = 133^2$",
+                "$$\\sqrt{1.7689} = \\frac{133}{100} = 1.33$$"
+              ],
+              finalAnswer: "$1.33$"
+            },
+            {
+              label: "(iii)",
+              statement: "$\\sqrt{0.1296}$",
+              working: [
+                "Convert decimal to fraction: $0.1296 = \\frac{1296}{10000}$",
+                "$\\sqrt{1296} = 36$, $\\sqrt{10000} = 100$",
+                "$$\\sqrt{0.1296} = \\frac{36}{100} = 0.36$$"
+              ],
+              finalAnswer: "$0.36$"
+            },
+            {
+              label: "(iv)",
+              statement: "$\\sqrt{32.0356}$",
+              working: [
+                "Convert decimal to fraction: $32.0356 = \\frac{320356}{10000}$",
+                "Factorize numerator: $320356 = 566^2$",
+                "$$\\sqrt{32.0356} = \\frac{566}{100} = 5.66$$"
+              ],
+              finalAnswer: "$5.66$"
+            }
+          ],
+          finalAnswer: "(i) 0.16, (ii) 1.33, (iii) 0.36, (iv) 5.66",
+          officialAnswer: "(i) 0.16 (ii) 1.33 (iii) 0.36 (iv) 5.66"
+        },
+        {
+          id: "ex-3-1-q5",
+          chapterId: 3,
+          chapterNumber: 3,
+          chapterTitle: "Square and Cube Roots",
+          exerciseId: "3.1",
+          exerciseTitle: "Exercise 3.1",
+          questionNumber: "Question 5",
+          topic: "Square Root of Decimals by Division Method",
+          statement: "Find the square root of each of the following numbers by division method:\n(i) $0.0289$\n(ii) $1.4641$\n(iii) $21.16$\n(iv) $4329.64$",
+          subQuestions: [
+            {
+              label: "(i)",
+              statement: "$\\sqrt{0.0289}$",
+              working: [
+                "Pairing digits from decimal point: $0.\\;\\overline{02}\\;\\overline{89}$",
+                "$1 \\times 1 = 1$, remainder $1$, bring down $89 \\to 189$",
+                "Double divisor $1 \\to 2$, $27 \\times 7 = 189$, remainder $0$.",
+                "$$\\sqrt{0.0289} = 0.17$$"
+              ],
+              finalAnswer: "$0.17$"
+            },
+            {
+              label: "(ii)",
+              statement: "$\\sqrt{1.4641}$",
+              working: [
+                "Pairing digits: $\\overline{1}.\\;\\overline{46}\\;\\overline{41}$",
+                "$1^2 = 1$, remainder $0$, bring down $46$",
+                "Double $1 \\to 2$, $22 \\times 2 = 44$, remainder $2$, bring down $41 \\to 241$",
+                "$241 \\times 1 = 241$, remainder $0$.",
+                "$$\\sqrt{1.4641} = 1.21$$"
+              ],
+              finalAnswer: "$1.21$"
+            },
+            {
+              label: "(iii)",
+              statement: "$\\sqrt{21.16}$",
+              working: [
+                "Pairing digits: $\\overline{21}.\\;\\overline{16}$",
+                "$4^2 = 16$, remainder $5$, bring down $16 \\to 516$",
+                "Double $4 \\to 8$, $86 \\times 6 = 516$, remainder $0$.",
+                "$$\\sqrt{21.16} = 4.6$$"
+              ],
+              finalAnswer: "$4.6$"
+            },
+            {
+              label: "(iv)",
+              statement: "$\\sqrt{4329.64}$",
+              working: [
+                "Pairing digits: $\\overline{43}\\;\\overline{29}.\\;\\overline{64}$",
+                "$6^2 = 36$, remainder $7$, bring down $29 \\to 729$",
+                "Double $6 \\to 12$, $125 \\times 5 = 625$, remainder $104$, bring down $64 \\to 10464$",
+                "Double $65 \\to 130$, $1308 \\times 8 = 10464$, remainder $0$.",
+                "$$\\sqrt{4329.64} = 65.8$$"
+              ],
+              finalAnswer: "$65.8$"
+            }
+          ],
+          finalAnswer: "(i) 0.17, (ii) 1.21, (iii) 4.6, (iv) 65.8",
+          officialAnswer: "(i) 0.17 (ii) 1.21 (iii) 4.6 (iv) 65.8"
+        },
+        {
           id: "ex-3-1-q6",
           chapterId: 3,
           chapterNumber: 3,
@@ -215,6 +331,25 @@ export const unit3Roots: Chapter = {
           ],
           finalAnswer: "Length of one side = 254 cm",
           officialAnswer: "254cm"
+        },
+        {
+          id: "ex-3-1-q8",
+          chapterId: 3,
+          chapterNumber: 3,
+          chapterTitle: "Square and Cube Roots",
+          exerciseId: "3.1",
+          exerciseTitle: "Exercise 3.1",
+          questionNumber: "Question 8",
+          topic: "Word Problem - Area of Square Room",
+          statement: "Grandma’s square room one side is $90\\text{ m}$. Find the area of the square room of grandma’s.",
+          given: "Length of one side of square room $l = 90\\text{ m}$",
+          formula: "$$\\text{Area} = l \\times l = l^2$$",
+          workingSteps: [
+            "$$\\text{Area} = 90\\text{ m} \\times 90\\text{ m}$$",
+            "$$= 8100\\text{ m}^2$$"
+          ],
+          finalAnswer: "Area of the square room = 8100 m²",
+          officialAnswer: "8100m2"
         },
         {
           id: "ex-3-1-q9",

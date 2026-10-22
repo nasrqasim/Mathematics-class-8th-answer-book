@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded Base Icon -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="24" y="24" width="464" height="464" rx="92" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="8"/>
+  
+  <!-- Book / Math Board Base -->
+  <path d="M120 370 C180 340 256 350 256 350 C256 350 332 340 392 370 L392 180 C332 150 256 160 256 160 C256 160 180 150 120 180 Z" fill="#ffffff" opacity="0.95"/>
+  <path d="M256 160 L256 350" stroke="#1e3a8a" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Graduation Cap / Ribbon -->
+  <polygon points="256,70 376,120 256,170 136,120" fill="url(#gold)"/>
+  <path d="M376 120 L376 180" stroke="#fbbf24" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="376" cy="186" r="8" fill="#fbbf24"/>
+
+  <!-- Mathematical Symbols across the open book -->
+  <!-- Left Page: Square Root & Pi -->
+  <path d="M160 270 L175 270 L190 300 L210 230 L235 230" fill="none" stroke="#1e3a8a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="180" y="325" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#2563eb">x²</text>
+  
+  <!-- Right Page: Sigma / Integration & 8th Grade Badge -->
+  <path d="M325 240 L285 240 L305 265 L285 290 L325 290" fill="none" stroke="#1e3a8a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="310" cy="320" r="18" fill="#2563eb"/>
+  <text x="303" y="327" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">8</text>
+
+  <!-- Title Banner -->
+  <text x="256" y="440" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">MATH 8</text>
+  <text x="256" y="470" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#93c5fd" text-anchor="middle" letter-spacing="1">KEYBOOK</text>
+</svg>
